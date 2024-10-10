@@ -1,0 +1,47 @@
+.placeholder {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	pointer-events: none;
+}
+
+.chip {
+	display: inline-flex;
+	align-items: center;
+	background-color: #e3e6ed;
+	border-radius: 20px;
+	padding: 8px 12px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	font-size: 14px;
+	position: relative;
+	user-select: none;
+	cursor: pointer;
+}
+
+.chip.selected {
+	background-color: #c0d3eb;
+}
+
+.chipContent {
+	outline: none;
+	margin-right: 20px;
+}
+
+.deleteButton {
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: #888;
+	cursor: pointer;
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.deleteButton:hover {
+	color: #555;
+}
